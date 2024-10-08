@@ -1,0 +1,39 @@
+body {
+    background-image: url('images/Yellow\ Black\ Vintage\ Retro\ Books\ Reading\ Blog\ Banner\ \(1\).jpg'); /* เปลี่ยนเป็น URL ของภาพพื้นหลัง */
+    background-size: cover; /* ทำให้ภาพขยายเต็มพื้นที่ */
+    background-position: center; /* จัดตำแหน่งภาพให้อยู่กลาง */
+    background-repeat: no-repeat; /* ป้องกันไม่ให้ภาพซ้ำ */
+    font-family: Arial, sans-serif; /* ฟอนต์ของหน้า */
+}
+.navbar {
+    border-radius: 15px; /* ทำให้มุมมน */
+    background-color: rgba(255, 255, 255, 0.9); /* เปลี่ยนสีพื้นหลังเป็นโปร่งใส */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* เพิ่มเงาเพื่อให้ดูเด่น */
+}
+.card {
+    border-radius: 15px; /* ทำให้มุมมน */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* เพิ่มเงาเพื่อให้ดูยกนูน */
+    transition: transform 0.2s; /* ทำให้มีการเคลื่อนไหวเมื่อเอาเมาส์ไปไว้ */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* เคลื่อนย้ายขึ้นเมื่อ hover */
+}
+.page-title {
+    margin-top: 40px; /* ระยะห่างด้านบน */
+    margin-bottom: 20px; /* ระยะห่างด้านล่าง */
+    color: hwb(0 100% 0%); /* สีตัวอักษร */
+    font-size: 2rem; /* ขนาดตัวอักษร */
+}
+
+/* เปลี่ยนสีของวรรค */
+.page-title::before,
+.page-title::after {
+    content: "";
+    display: block;
+    height: 10px; /* ความสูงของวรรค */
+    background-color: rgba(247, 225, 29, 0.836); /* สีของวรรค */
+    margin: 10px 0; /* ระยะห่างบน-ล่าง */
+}
+
+
