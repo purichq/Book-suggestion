@@ -7,9 +7,10 @@ body {
 }
 .navbar {
     border-radius: 15px; /* ทำให้มุมมน */
-    background-color: rgba(255, 255, 255, 0.9); /* เปลี่ยนสีพื้นหลังเป็นโปร่งใส */
+    background-color: #ffffff; /* เปลี่ยนสีพื้นหลังเป็นโปร่งใส */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* เพิ่มเงาเพื่อให้ดูเด่น */
 }
+
 .card {
     border-radius: 15px; /* ทำให้มุมมน */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* เพิ่มเงาเพื่อให้ดูยกนูน */
@@ -22,8 +23,8 @@ body {
 .page-title {
     margin-top: 40px; /* ระยะห่างด้านบน */
     margin-bottom: 20px; /* ระยะห่างด้านล่าง */
-    color: hwb(0 100% 0%); /* สีตัวอักษร */
-    font-size: 2rem; /* ขนาดตัวอักษร */
+    color: #d3a032; /* สีตัวอักษร */
+    font-size: 4rem; /* ขนาดตัวอักษร */
 }
 
 /* เปลี่ยนสีของวรรค */
@@ -32,8 +33,17 @@ body {
     content: "";
     display: block;
     height: 10px; /* ความสูงของวรรค */
-    background-color: rgba(247, 225, 29, 0.836); /* สีของวรรค */
+    
     margin: 10px 0; /* ระยะห่างบน-ล่าง */
 }
+
+.page-title {
+    font-family: 'Pirata One', cursive;
+}
+
+
+
+
+
 
 
