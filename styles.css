@@ -10,7 +10,7 @@ body {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
 }
 .navbar a {
-    color: hsl(15, 47%, 12%); 
+    color: #2d1710; 
     font-size: 20px;
 }
 .navbar a:hover {
