@@ -35,9 +35,9 @@ body {
 
 body {
     font-family: 'PlayfairDisplay', serif;
-    font-size: 16px; /* ขนาดฟอนต์ */
-    color: #d4945d; /* สีตัวอักษร */
-    line-height: 1.5; /* ระยะห่างระหว่างบรรทัด */
+    font-size: 16px;
+    color: #d4945d; 
+    line-height: 1.5; 
 }
 
 
